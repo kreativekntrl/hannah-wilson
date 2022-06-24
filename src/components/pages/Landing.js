@@ -8,9 +8,9 @@ import { CgWebsite } from 'react-icons/cg';
 
 const styles = {
   footer: {
-    padding: "40px 0",
+    padding: "20px 0",
     backGroundColor: "#ffffff",
-    color: "#4b4c4d"
+    color: "#4b4c4d",
   },
   footerUl: {
     padding: "0",
@@ -24,13 +24,15 @@ const styles = {
     padding: "0 10px",
   },
   a: {
-    color: "inherit",
     textDecoration: "none",
     opacity: "0.8",
+    color: "#4b4c4d",
+    padding: "5px",
+    fontSize: "20px",
   },
   social: {
     textAlign: "center",
-    paddingBottom: "25px",
+    paddingBottom: "10px",
   }
 }
 
@@ -39,34 +41,36 @@ export default function Landing({currentPage, handlePageChange}) {
 <div
       style={{width:"100%", margin: "auto"}}>
             <div
-             style={{height: "245px", width: "340px"}}>
+             style={{height: "245px", width: "340px", margin: "auto"}}>
             <img src={landingPic1} alt="creative black and white head shot" style={{height: "100%", width: "100%", objectFit: "contain"}}/> 
             </div>
             <div
-            style={{width: "100%", margin: "auto", display: "flex", justifyContent: "center"}}>
+            style={{width: "100%", margin: "auto", display: "flex", justifyContent: "center", paddingTop: "15px"}}>
             <h1>HANNAH WILSON.</h1>
             </div>
             <div
-             style={{height: "245px", width: "340px", }}>
+             style={{height: "245px", width: "340px", margin: "auto"}}>
             <img src={landingPic2} alt="creative black and white head shot" style={{height: "100%", width: "100%", objectFit: "contain"}}/> 
             </div>
-            <div style={styles.footer}>
-        <footer>
+        <footer style={styles.footer}>
             <div 
             className="social"
             style={styles.social}>
               <a
+              style={styles.a}
               href='https://instagram.com/hannahnwilson_?igshid=YmMyMTA2M2Y='>
-                <i><BsInstagram /></i>
+                <i aria-label="Instagram"><BsInstagram /></i>
               </a>
               <a
+              style={styles.a}
               href='mailto:hannahwilson2690@gmail.com?'
               subject="portfolio inquiry">
-                <i><MdOutlineEmail /></i> 
+                <i aria-label="Email"><MdOutlineEmail /></i> 
               </a>
               <a
+              style={styles.a}
               href='https://www.tcmmodels.com/women-mainboard/1440349/hannah-w'>
-                <i><CgWebsite /></i> 
+                <i aria-label="Agency Website"><CgWebsite /></i> 
               </a>
             </div>
             <ul 
@@ -96,6 +100,5 @@ export default function Landing({currentPage, handlePageChange}) {
             </ul>
         </footer>
     </div>
-</div>
   )
 }
