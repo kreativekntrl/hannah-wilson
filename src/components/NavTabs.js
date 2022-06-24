@@ -28,20 +28,27 @@ function NavTabs({ currentPage, handlePageChange }) {
 <nav 
 style={styles.nav}>
  <ul
+ className="list-inline"
  style={styles.navUl}>
-  <li style={styles.navLi}>
+  <li
+  className="list-inline-item" 
+  style={styles.navLi}>
   <a
   href='#Gallery'
   style={styles.a}
   onClick={() => handlePageChange('Gallery')}>Gallery.</a>
   </li>
-  <li style={styles.navLi}>
+  <li 
+  className="list-inline-item"
+  style={styles.navLi}>
   <a
   href='#Measurements'
   style={styles.a}
   onClick={() => handlePageChange('Measurements')}>Measurements.</a>
   </li>
-  <li style={styles.navLi}>  
+  <li 
+  className="list-inline-item"
+  style={styles.navLi}>  
   <a
   href='#Landing'
   style={styles.a}
