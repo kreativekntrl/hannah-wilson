@@ -1,6 +1,10 @@
 import React from 'react';
 import landingPic1 from '../images/30.jpg';
 import landingPic2 from '../images/29.jpg';
+import { BsInstagram } from 'react-icons/bs';
+import { MdOutlineEmail } from 'react-icons/md';
+import { CgWebsite } from 'react-icons/cg';
+
 
 const styles = {
   footer: {
@@ -53,16 +57,16 @@ export default function Landing({currentPage, handlePageChange}) {
             style={styles.social}>
               <a
               href='https://instagram.com/hannahnwilson_?igshid=YmMyMTA2M2Y='>
-                ig
+                <i><BsInstagram /></i>
               </a>
               <a
               href='mailto:hannahwilson2690@gmail.com?'
               subject="portfolio inquiry">
-                email 
+                <i><MdOutlineEmail /></i> 
               </a>
               <a
               href='https://www.tcmmodels.com/women-mainboard/1440349/hannah-w'>
-                agency
+                <i><CgWebsite /></i> 
               </a>
             </div>
             <ul 
