@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {
   nav: {
     color: "#404040",
-    padding: "5px"
+    padding: "10px"
   },
   navUl: {
     padding: "0",
