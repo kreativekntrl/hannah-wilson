@@ -13,7 +13,8 @@ export default function Landing({currentPage, handlePageChange}) {
             </div>
             <div
             style={{width: "100%", margin: "auto", display: "flex", justifyContent: "center", paddingTop: "15px"}}>
-            <h1>HANNAH WILSON.</h1>
+            <h1
+            style={{fontWeight: "bold"}}>HANNAH WILSON.</h1>
             </div>
             <div
              style={{height: "245px", width: "340px", margin: "auto"}}>

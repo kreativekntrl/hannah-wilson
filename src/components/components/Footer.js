@@ -23,7 +23,7 @@ const styles = {
     a: {
       textDecoration: "none",
       opacity: "0.8",
-      color: "#4b4c4d",
+      color: "#404040",
       padding: "5px",
       fontSize: "20px",
     },
@@ -36,14 +36,6 @@ const styles = {
       margin: "0 8px",
       width: "40px",
       height: "40px",
-
-      '& a': {
-        textDecoration: 'none',
-        color: '#0000ee',
-    },
-    '& a:hover': {
-    textDecoration: 'underline',
-},
     },
     social: {
       textAlign: "center",

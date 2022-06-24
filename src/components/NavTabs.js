@@ -2,8 +2,7 @@ import React from 'react';
 
 const styles = {
   nav: {
-    backGroundColor: "#ffffff",
-    color: "#4b4c4d",
+    color: "#404040",
     padding: "5px"
   },
   navUl: {
