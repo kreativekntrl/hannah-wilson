@@ -1,7 +1,6 @@
 import React from 'react';
 import landingPic1 from '../images/30.jpg';
 import landingPic2 from '../images/29.jpg';
-import Footer from '../components/Footer';
 
 export default function Landing() {
     return (
@@ -24,7 +23,6 @@ export default function Landing() {
     style={{height: "245px", width: "340px", margin: "auto"}}>
     <img src={landingPic2} alt="creative black and white head shot" style={{height: "100%", width: "100%", objectFit: "contain"}}/> 
   </div>
-<Footer />
 </div>
   )
 }

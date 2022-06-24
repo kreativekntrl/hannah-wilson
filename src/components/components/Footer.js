@@ -43,7 +43,7 @@ const styles = {
     }
   }
 
-const Footer = () => {
+const Footer = ({ handlePageChange }) => {
     return (
         <footer style={styles.footer}>
         <div 
@@ -80,18 +80,21 @@ const Footer = () => {
             style={styles.footerLi}>
               <a 
               href="#Gallery"
+              onClick={() => handlePageChange('Gallery')}
               style={styles.a}>Gallery</a></li>
             <li 
             className="list-inline-item nav-li"
             style={styles.footerLi}>
               <a 
               href="#Measurements"
+              onClick={() => handlePageChange('Measurements')}
               style={styles.a}>Measurements</a></li>
             <li 
             className="list-inline-item nav-li"
             style={styles.footerLi}>
               <a 
               href="#Landing"
+              onClick={() => handlePageChange('Landing')}
               style={styles.a}>Exit</a></li>
         </ul>
     </footer>

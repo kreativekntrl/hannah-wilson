@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import measurementImg from '../images/01.jpg'
 import measurementImg2 from '../images/02.jpg'
 
@@ -21,7 +20,6 @@ export default function Measurements() {
           style={{margin: "auto", padding: "0 10px"}}>
         <img src={measurementImg2} alt="creative black and white head shot" style={{height: "100%", width: "100%", objectFit: "contain"}}/>
         </div>
-          <Footer/>
       </div>
   )
 }

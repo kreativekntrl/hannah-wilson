@@ -3,6 +3,7 @@ import Landing from './pages/Landing';
 import Gallery from './pages/Gallery';
 import Measurements from './pages/Measurements';
 import NavTabs from './NavTabs';
+import Footer from './components/Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Landing');
@@ -27,6 +28,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />  
       {renderPage()}
+      <Footer handlePageChange={handlePageChange} />
     </div>
   );
 }
