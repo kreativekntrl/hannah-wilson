@@ -28,7 +28,6 @@ const styles = {
     textAlign: "center",
     paddingBottom: "25px",
   }
-
 }
 
 export default function Landing({currentPage, handlePageChange}) {
