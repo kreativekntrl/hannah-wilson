@@ -9,6 +9,11 @@ import img8 from '../images/39.jpg';
 import img9 from '../images/43.jpg';
 import img10 from '../images/45.jpg';
 import img11 from '../images/48.jpg';
+import img12 from '../images/54.jpg';
+import img13 from '../images/59.jpg';
+import img14 from '../images/61.jpg';
+import img15 from '../images/69.jpg';
+import img16 from '../images/70.jpg';
 
 
 export const photos = [
@@ -68,32 +73,27 @@ export const photos = [
       height: 3
     },
     {
-      src: "",
-      width: 4927,
-      height: 1000
-    },
-    {
-      src: "",
+      src: img12,
       width: 4,
       height: 3
     },
     {
-      src: "",
+      src: img13,
       width: 4,
       height: 3
     },
     {
-      src: "",
+      src: img14,
       width: 4,
       height: 3
     },
     {
-      src: "",
+      src: img15,
       width: 4,
       height: 3
     },
     {
-      src: "",
+      src: img16,
       width: 4,
       height: 3
     }
