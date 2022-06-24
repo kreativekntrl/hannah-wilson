@@ -8,14 +8,15 @@ const styles = {
     margin: "0 10px"
   }
 }
+
 export default function Gallery() {
     return (
-      <div>
-            <div
-              style={styles.layout}>
-            <Layout photos={photos} />
-            </div>
-             <Footer />
-      </div>
+<div>
+  <div
+    style={styles.layout}>
+    <Layout photos={photos} />
+    </div>
+    <Footer />
+</div>
   )
 }
