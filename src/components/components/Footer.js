@@ -36,6 +36,14 @@ const styles = {
       margin: "0 8px",
       width: "40px",
       height: "40px",
+
+      '& a': {
+        textDecoration: 'none',
+        color: '#0000ee',
+    },
+    '& a:hover': {
+    textDecoration: 'underline',
+},
     },
     social: {
       textAlign: "center",
@@ -52,7 +60,7 @@ const Footer = () => {
           <a
           style={styles.a}
           href='https://instagram.com/hannahnwilson_?igshid=YmMyMTA2M2Y='>
-            <i 
+            <i
             style={styles.icon}
             aria-label="Instagram"><BsInstagram /></i>
           </a>
