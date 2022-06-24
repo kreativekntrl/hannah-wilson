@@ -76,19 +76,19 @@ const Footer = () => {
         className="list-inline"
         style={styles.footerUl}>
             <li 
-            className="list-inline-item"
+            className="list-inline-item nav-li"
             style={styles.footerLi}>
               <a 
               href="#Gallery"
               style={styles.a}>Gallery</a></li>
             <li 
-            className="list-inline-item"
+            className="list-inline-item nav-li"
             style={styles.footerLi}>
               <a 
               href="#Measurements"
               style={styles.a}>Measurements</a></li>
             <li 
-            className="list-inline-item"
+            className="list-inline-item nav-li"
             style={styles.footerLi}>
               <a 
               href="#Landing"

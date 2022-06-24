@@ -31,7 +31,7 @@ style={styles.nav}>
  className="list-inline"
  style={styles.navUl}>
   <li
-  className="list-inline-item" 
+  className="list-inline-item nav-li" 
   style={styles.navLi}>
   <a
   href='#Gallery'
@@ -39,7 +39,7 @@ style={styles.nav}>
   onClick={() => handlePageChange('Gallery')}>Gallery.</a>
   </li>
   <li 
-  className="list-inline-item"
+  className="list-inline-item nav-li"
   style={styles.navLi}>
   <a
   href='#Measurements'
@@ -47,7 +47,7 @@ style={styles.nav}>
   onClick={() => handlePageChange('Measurements')}>Measurements.</a>
   </li>
   <li 
-  className="list-inline-item"
+  className="list-inline-item nav-li"
   style={styles.navLi}>  
   <a
   href='#Landing'
