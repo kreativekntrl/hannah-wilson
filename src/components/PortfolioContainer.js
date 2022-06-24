@@ -3,7 +3,6 @@ import Landing from './pages/Landing';
 import Gallery from './pages/Gallery';
 import Measurements from './pages/Measurements';
 import NavTabs from './NavTabs';
-// import NavTabs from './NavTabs';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Landing');
