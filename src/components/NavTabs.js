@@ -2,6 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+<>
 <nav>
  <div>
   <a
@@ -15,6 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   onClick={() => handlePageChange('Landing')}>Exit.</a>
 </div>
 </nav>
+</>
   );
 }
 
