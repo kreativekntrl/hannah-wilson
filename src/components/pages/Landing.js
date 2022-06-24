@@ -14,10 +14,6 @@ export default function Landing({currentPage, handlePageChange}) {
             <div
             style={{width: "100%", margin: "auto", display: "flex", justifyContent: "center"}}>
             <h1>HANNAH WILSON.</h1>
-            <a
-            href='#Gallery'
-            onClick={()=> handlePageChange('Gallery')}
-            >ENTER.</a>
             </div>
             <div
              style={{height: "245px", width: "340px", }}>

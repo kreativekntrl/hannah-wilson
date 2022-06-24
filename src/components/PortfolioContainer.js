@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Landing from './pages/Landing';
 import Gallery from './pages/Gallery';
 import Measurements from './pages/Measurements';
+import NavTabs from './NavTabs';
 // import NavTabs from './NavTabs';
 
 export default function PortfolioContainer() {
@@ -25,7 +26,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Landing currentPage={currentPage} handlePageChange={handlePageChange} />  
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />  
       {renderPage()}
     </div>
   );
