@@ -27,7 +27,6 @@ export default function PortfolioContainer() {
     <div>
       <Landing currentPage={currentPage} handlePageChange={handlePageChange} />  
       {renderPage()}
-   
     </div>
   );
 }
