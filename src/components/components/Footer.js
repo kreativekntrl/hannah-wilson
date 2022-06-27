@@ -33,9 +33,7 @@ const styles = {
       fontSize: "20px",
       borderRadius: "50%",
       border: "1px solid #ccc",
-      margin: "0 8px",
-      width: "40px",
-      height: "40px",
+      margin: "0 8px",    
     },
     social: {
       textAlign: "center",

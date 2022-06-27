@@ -2,7 +2,7 @@
   --dark: #999999;
   --light-gray: #B9B7BD;
   --light-pink: #E7D2CC;
-  --light: #F5FFFA;
+  --light: #fffefb;
   --darkest: #404040;
 }
 
@@ -17,7 +17,7 @@ h1 {
 /*h1 for landing page animation*/
 .animate-charcter
 {
-   text-transform: uppercase;
+  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
     var(--darkest) 0%,
